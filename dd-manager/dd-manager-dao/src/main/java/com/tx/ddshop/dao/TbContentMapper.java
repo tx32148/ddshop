@@ -5,6 +5,7 @@ import com.tx.ddshop.pojo.po.TbContentExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
+
 public interface TbContentMapper {
     int countByExample(TbContentExample example);
 
