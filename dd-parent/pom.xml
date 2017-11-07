@@ -16,7 +16,7 @@
     <!--打包方式-->
     <packaging>pom</packaging>
 
-    <!--版本号-->
+    <!--相关jar的版本号属性-->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
