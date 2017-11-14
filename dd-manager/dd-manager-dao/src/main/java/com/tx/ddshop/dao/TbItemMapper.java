@@ -1,5 +1,6 @@
 package com.tx.ddshop.dao;
 
+import com.tx.ddshop.pojo.po.TbContentExample;
 import com.tx.ddshop.pojo.po.TbItem;
 import com.tx.ddshop.pojo.po.TbItemExample;
 import java.util.List;
@@ -20,7 +21,7 @@ public interface TbItemMapper {
 
     TbItem selectByPrimaryKey(Long id);
 
-    int updateByExampleSelective(@Param("record") TbItem record, @Param("example") TbItemExample example);
+    int updateByExampleSelective(@Param("record") TbItem record, @Param("example") TbContentExample example);
 
     int updateByExample(@Param("record") TbItem record, @Param("example") TbItemExample example);
 
